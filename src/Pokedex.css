@@ -75,17 +75,6 @@
   z-index: 3;
 }
 
-/* .pokemon-type-button {
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  opacity: 0.5;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 3;
-  background-size: 50% 50%;
-} */
-
 .all-pokemon-button, .next-button {
   border-radius: 3px;
   background-color: rgb(66, 35, 243);
@@ -97,7 +86,7 @@
 }
 
 .pokedex-background {
-  background-image: url("./Images/pokemons4.jpg");
+  background-image: url("./Images/pokemons.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

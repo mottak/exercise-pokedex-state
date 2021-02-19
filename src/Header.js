@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import pokedex2 from './Images/pokedex2.png';
-
+import pokedex from './Images/pokedex.png';
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <img src={pokedex2} alt="pokedex com letra amarela e borda azul" className="Pokedex-title"/>
+        <img src={pokedex} alt="pokedex com letra amarela e borda azul" className="Pokedex-title"/>
       </header>
       )
   }

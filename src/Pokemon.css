@@ -1,13 +1,12 @@
 .Pokemon-card {
-  background-color: rgb(243, 238, 189, 0.1);
-  border-radius: 5px;
-  margin-top: 25px;
-  margin-bottom: 5px;
-  width: 200px;
-  height: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  margin: 10px 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
 }
 
 
