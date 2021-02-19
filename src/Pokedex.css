@@ -1,0 +1,121 @@
+.pokemon-type-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-button-container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-button-container-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 250px;
+}
+
+.pokemon-Fire-button {
+  background-image: url(./Images/Fire.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.pokemon-Psychic-button {
+  background-image: url(./Images/Psychic.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.pokemon-Poison-button {
+  background-image: url(./Images/Poison.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.pokemon-Bug-button {
+  background-image: url(./Images/Bug.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.pokemon-Electric-button {
+  background-image: url(./Images/Electric.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.pokemon-Normal-button {
+  background-image: url(./Images/Normal.png);
+  background-size: contain;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+/* .pokemon-type-button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  opacity: 0.5;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+  background-size: 50% 50%;
+} */
+
+.all-pokemon-button, .next-button {
+  border-radius: 3px;
+  background-color: rgb(66, 35, 243);
+  font-family: 'Oswald', sans-serif;
+  color: rgb(250, 226, 195);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.pokedex-background {
+  background-image: url("./Images/pokemons4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  width: 100%;
+  height: 80vh;
+}
+
+.pokedex-container {
+  width: 100%;
+  height: 100%;
+}
+
+.pokemons-container {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
