@@ -18,12 +18,6 @@ class Pokedex extends Component {
     };
   }
 
-  // dentro do tipo selecionado navegar para o proximo
-  // como acessar cada tipo de pokemon -> data.type
-  // dentro de data.type filtrar os elementos de acordo com o click
-  // chamar handleClick dentro de handlePokemonType
-  // colocar o tipo de pokemon dentro de uma variavel?
-  // pra a partir dai de acordo com o click mudar a atribuição?
   componentDidMount() {
     const { pokemonType } = this.state;
     this.setState({ Pokemons: data.filter((element) => element.type === pokemonType) });
